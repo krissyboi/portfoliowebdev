@@ -1,0 +1,70 @@
+#intro {
+
+max-width: 700px;
+margin: 0 auto;
+margin-top: 15%;
+margin-bottom: 20%;
+
+
+}
+
+body {
+	background-image: url(../../images/bg8.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.aboutme {
+
+	color: white;
+
+}
+
+.abouttraits {
+
+	color: white;
+}
+
+.skills {
+	color: white;
+}
+
+.picme {
+	height: 300px;
+	margin-left: 50%;
+	position: absolute;
+}
+
+.border {
+
+	border: 10px solid white;
+	width: 300px;
+	height: 450px;
+	padding: 10px;
+	margin-left: 7.66%;
+	margin-top: 3%;
+	float: left;
+
+}
+
+.capstones {
+	color: white;
+}
+
+.picme2 {
+	height: 150px;
+	margin: 0 auto;
+	margin-left: 25px;
+}
+figcaption {
+	color: white;
+}
+
+#navigate {
+
+	width: 100%;
+
+
+
+}
