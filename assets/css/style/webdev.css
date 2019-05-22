@@ -18,7 +18,18 @@ body {
 .aboutme {
 
 	color: white;
+	
 
+}
+
+.hrwhite {
+	max-width: 45%;
+	background-color: white;
+}
+
+.abouthr {
+	max-width: 35%;
+	background-color: white;
 }
 
 .abouttraits {
@@ -59,21 +70,35 @@ figcaption {
 }
 
 .nav-item:hover{
-    -webkit-stroke-width: 5.3px;
+    -webkit-stroke-width: 100.3px;
       -webkit-stroke-color: blue;
       -webkit-fill-color: blue;
-      text-shadow: 1px 0px 20px blue;
+      text-shadow: 10px 0px 20px blue;
+
 }
 
+
+	
 #navi {
 	border-bottom: 2px solid #668cff;
 }
-.abouthr {
+
+
+#nav-link{
+    font-size:16px;
+    color: #668cff;
+      transition: all 0.4s ease-in;
+      text-decoration:none;
+      border-bottom: 2px solid #668cff;
+
+}
+
+/*.abouthr {
 	max-width: 10%;
-	border-width: 2px;
+	border-width: 1px;
 	border-style: solid;
 	color: #668cff;
-}
+}*/
 
 .dashboard-about {
 	display: inline-block;
@@ -87,3 +112,139 @@ figcaption {
 	margin-right: 10px;
 }
 
+
+html, body {
+	height: 100%
+	margin 0;
+}
+
+.wrapper {
+	min-height: 100%;
+	
+
+
+}
+
+footer {
+	height: 80px;
+	color: white;
+	background-color: black;
+	text-align: center;	
+	width: 100%;
+}
+
+.container-about {
+
+	margin-top: 10px;
+}
+
+
+.contactform {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.contacth6 {
+
+	color: white;
+
+}
+
+.contacth1 {
+	color: white;
+
+}
+
+.contacthr {
+
+	max-width: 35%;
+	background-color: white;
+}
+
+.skills2 {
+	display: inline-block;
+
+}
+
+.dashboard-footer {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: white;
+	text-align: center;
+	line-height: 50px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.projectBanner
+{
+	position: relative;	
+}
+.cardContainer
+{
+	position: relative;	
+	top: 70%;
+	left: 5%;
+	max-height: 350px !important;
+	max-width: 350px !important;
+	transform-style: preserve-3d;
+	perspective: 600px;
+	transition: 0.5s;
+}
+
+.cardContainer .front
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+	transform: 	rotateY(0deg);
+	transition: 0.5s;
+}
+
+.cardContainer:hover .front
+{
+	filter:blur(20px);
+	transform: 	scale(1.15);
+	/*transform: 	rotateY(-180deg);*/	
+}
+
+.cardContainer .back
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.5);
+	color: #000;
+	opacity: 0;
+/*	backface-visibility: hidden;
+	transform: 	rotateY(180deg);*/
+	transition: 0.5s;
+	overflow: 	hidden;
+	padding: 20px;
+}
+
+.cardContainer:hover .back
+{
+	
+	opacity: 1;
+	/*transform: 	rotateY(0deg);*/
+	
+}
+
+
+#csp1img {
+	
+	height: 80%;
+	width: 100%;
+	padding: 10px 10px 10px 10px !important	;
+}
+
+.container-contact
+{
+	position: 	relative	;
+
+	margin-top: 30vh;
+}

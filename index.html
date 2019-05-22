@@ -22,24 +22,28 @@
 </head>
 
 <body>
-
-<nav id="navi" class="sticky-top animated fadeInLeft">
+	<div class="wrapper">
+		<nav id="nav-link" class="sticky-top animated fadeInLeft">
 			<ul class="nav nav-pills bg-dark text-white animated zoomIn">
 
 				<li class="nav-item">
-					<a class="nav-link home" href="index.html">Home</a>
+					<a class="nav-link home text-light" href="index.html">Home</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link About" href="#about">About</a>
+					<a class="nav-link About text-light" href="#about">About</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link portfolios" href="#portfolio">Portfolio</a>
+					<a class="nav-link portfolios text-light" href="#portfolio">Portfolio</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link contact" href="#contact">Contact</a>
+					<a class="nav-link contact text-light" href="#contact">Contact</a>
+				</li>
+
+				<li class="nav-item ml-auto mr-4">
+					<a class="nav-link contact text-light mr-5" href="#contact"> <i class="fas fa-download"></i> Resume</a>
 				</li>
 
 
@@ -47,127 +51,250 @@
 		</nav>
 
 
-	<div class="container">
+		<div class="container">
+
+
+			<!-- start of Landing page -->
+			<div class="jumbotron text-center text-white bg-dark" id="intro">
+
+				<h3 class="animated zoomIn">Hello I'm Dan kriss Camerino</h3>
+				<hr class="hrwhite">
+				<p class="animated zoomIn delay-1s">I'm a Web Developer</p>
+
+				<a class="btn btn-outline-primary animated zoomInLeft delay-1s" role="button" href="#about">View my work</a>
+			</div>
+			<!-- End of Landing page -->
 
 
 
-		<div class="jumbotron text-center text-white bg-dark" id="intro">
-
-			<h3 class="animated zoomIn">Hello I'm Dan kriss Camerino</h3>
-			<hr>
-			<p class="animated zoomIn delay-1s">I'm a Web Developer</p>
-
-			<a class="btn btn-view animated zoomInLeft delay-1s" role="button" href="#about">View my work</a>
-
-		</div>
-
-
-		<div class="container-about">
-<a name="about"></a>
-<br>
-			<h1 class="text-center aboutme animated zoomIn delay-1s">About me</h1>
-			<hr class="abouthr">
-
+			<!-- start of About page -->
 			<br>
 
 
-			<div class="traits">
-			<div class="dashboard-about">
-				<div id="post-circle" class="dashboard-circles">
-					<i class="fas fa-lightbulb"></i>
+			<div class="container-about">
+				<a name="about"></a>
+				<h1 class="text-center aboutme animated zoomIn delay-1s">About me</h1>
+				<hr class="abouthr">
+				<br>
+
+
+				<div class="row">
+					<div class="col-6">
+						<div class="traits">
+							<div class="dashboard-about">
+								<div id="post-circle" class="dashboard-circles">
+									<i class="fas fa-lightbulb"></i>
+								</div>
+							</div>
+							<p class="abouttraits animated zoomIn delay-1s">I always get inspired and by that I always <br> come up with new ideas to design a website</p>
+						</div>
+
+						<br>
+
+						<div class="traits">
+							<div class="dashboard-about">
+								<div id="post-circle" class="dashboard-circles">
+									<i class="fas fa-laptop"></i>
+								</div>
+							</div>
+							<p class="abouttraits animated zoomIn delay-1s">I Focus on my task, with that mindset <br>I work hard to finish what I started</p>
+						</div>
+
+
+						<br>
+
+						<div class="traits">
+							<div class="dashboard-about">
+								<div id="post-circle" class="dashboard-circles">
+									<i class="fas fa-chalkboard-teacher"></i>
+								</div>
+							</div>
+							<p class="abouttraits animated zoomIn delay-1s">I Always want to learn <br> this gives me the opportunity as well to help others</p>
+						</div>
+						<br>
+					</div>
+
+
+					<div class="col-6">
+						<img class="ml-5" src="assets/images/profile.jpg" style="width:250px; height:250px; border-radius: 50px;">
+
+					</div>
+
+
+
 				</div>
-			</div>
-				<p class="abouttraits animated zoomIn delay-1s">I always get inspired and by that I always <br> come up with new ideas to design a website</p>
-			</div>
 
-<br>
 
-			<div class="traits">
-			<div class="dashboard-about">
-				<div id="post-circle" class="dashboard-circles">
-					<i class="fas fa-laptop"></i>
+
+
+
+
+				<div class="skills animated fadeInLeft delay-1.5s">
+					<h2 class="ml-4">My Skills</h2><br>
+					<div class="row">
+						<div class="col-6">
+							<table>
+								<ul>
+									<li>HTML <br>
+										<progress value="80" max="100"> </progress>
+									</li>
+
+									<li>Javascript<br>
+										<progress value="50" max="100"> </progress>
+									</li>
+
+									<li>PHP<br>
+										<progress value="40" max="100"> </progress>
+									</li>
+								</ul>
+							</table>
+						</div>
+						<div class="col-6">
+							<table>
+								<ul>
+									<li>Laravel<br>
+										<progress value="80" max="100"> </progress>
+									</li>
+
+									<li>CSS<br>
+										<progress value="50" max="100"> </progress>
+									</li>
+
+									<li>Bootstrap<br>
+										<progress value="40" max="100"> </progress>
+									</li>
+								</ul>
+							</table>
+						</div>
+					</div>
+
 				</div>
+
 			</div>
-				<p class="abouttraits animated zoomIn delay-1s">I Focus on my task, with that mindset <br>I work hard to finish what I started</p>
-			</div>
-
-
-<br>
-
-			<div class="traits">
-			<div class="dashboard-about">
-				<div id="post-circle" class="dashboard-circles">
-					<i class="fas fa-chalkboard-teacher"></i>
-				</div>
-			</div>
-				<p class="abouttraits animated zoomIn delay-1s">I Always want to learn <br> this gives me the opportunity as well to help others</p>
-			</div>
-<br>
-
-
-			<div class="skills animated fadeInLeft delay-1.5s">
-				<table>
-					<h2>My Skills</h2>
-					<ul>
-						<li>HTML <br>
-							<progress value="80" max="100"> </progress>
-						</li>
-
-						<li>Javascript<br>
-							<progress value="50" max="100"> </progress>
-						</li>
-
-						<li>PHP<br>
-							<progress value="40" max="100"> </progress>
-						</li>
-					</ul>
-				</table>
-			</div>
-		</div>
-
-
-
-
-
-
-
-
-		<div>
 			<a name="portfolio"></a>
-			<h2 class="capstones">Capstones</h2>
-			<div class="border">
-				<img class="picme2" src="assets/images/kriss2.jpg">
-				<figcaption>Capstone1</figcaption>
-				<a id="landing1" class="btn btn-primary btn-xl js-scroll-trigger animated fadeInDown delay-1s" href="https://krissyboi.github.io/csp1-AkyatsukiMC/index.html">Capstone1</a>
+			<!-- End of About page -->
 
+			<br>
+			<h1 class="text-center aboutme animated zoomIn delay-1s projectBanner">Projects</h1>
+			<hr class="abouthr">
+			<br>
+
+
+				<div class="row">	
+
+					<div class="col-4 cardContainer">
+							<div class="front">
+								<img src="assets/images/banner2.jpg" style="width:300px; height:200px;">
+							</div>
+							<div class="back">
+								<div class="details">
+									<h3 class="text-dark">Capstone 1</h3>
+									<p class="text-dark">Static Website with HTML and CSS</p>
+								<a class="btn btn-outline-primary animated zoomInLeft delay-1s text-dark" role="button" href="https://krissyboi.github.io/csp1-AkyatsukiMC/home.html">View my work</a>
+								</div>	
+							</div>
+					</div>
+
+										<div class="col-4 cardContainer">
+							<div class="front">
+								<img src="assets/images/main.jpg" style="width:300px; height:200px;">
+							</div>
+							<div class="back">
+								<div class="details">
+									<h3 class="text-dark">Capstone 2</h3>
+									<p class="text-dark">Asset management "DanAnghang"</p>
+								<a class="btn btn-outline-primary animated zoomInLeft delay-1s text-dark" role="button" href="https://csp2-dananghang.herokuapp.com/">View my work</a>
+								</div>	
+							</div>
+					</div>
+
+										<div class="col-4 cardContainer">
+							<div class="front">
+								<img src="assets/images/brightsidePic.jpg" style="width:300px; height:200px;">
+							</div>
+							<div class="back">
+								<div class="details">
+									<h3 class="text-dark">Capstone 3</h3>
+									<p class="text-dark">Brightside Booking System</p>
+								<a class="btn btn-outline-primary animated zoomInLeft delay-1s text-dark" role="button" href="https://brightside-csp3.herokuapp.com/">View my work</a>
+								</div>	
+							</div>
+					</div>
+				</div>
+
+<div class="row">
+	
+
+
+</div>
+
+<br>
+<br>
+
+
+			<!-- start of Contact page -->
+			<br>
+			<a name="contact"></a>
+			<div class="container-contact">
+				<h1 class="text-center contacth1">Contact</h1>
+				<hr class="contacthr">
+				<h5 class="text-center contacth6"> <small>Let's work together!</small></h5>
+				<br>
+				<form class="contactform">
+
+					<div class="form-group">
+						<input type="text" class="form-control" id="inputname" placeholder="Name">
+					</div>
+
+					<div class="form-group">
+						<input type="email" class="form-control" id="inputemail" placeholder="Enter e-mail">
+					</div>
+
+					<div class="form-group">
+						<input type="number" class="form-control" id="inputnumber" placeholder="Contact number">
+					</div>
+
+
+					<div class="form-group">
+						<textarea class="form-control" id="inputmessage" placeholder="Your Message" rows="5"></textarea>
+					</div>
+
+					<div class="text-right form-group">
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+
+				</form>
 
 			</div>
+			<!-- End of Contact page -->
 
-
-
-
-
-
-			<div class="border"></div>
-			<div class="border"></div>
 
 
 
 
 
 		</div>
-
-
-
-
-
-
-
-
-
 	</div>
 
+	<footer>
 
+		<div class="dashboard-footer">
+			<div id="post-circle" class="dashboard-circles">
+				<a href="https://web.facebook.com/dkcamerino"><i class="fab fa-facebook-f text-dark"></i></a>
+
+			</div>
+		</div>
+
+		<div class="dashboard-footer">
+			<div id="post-circle" class="dashboard-circles">
+				<a href="https://www.instagram.com/krisscamerino/" class="nav-item"><i class="fab fa-instagram text-dark"></i></a>
+
+			</div>
+		</div>
+
+		<br>
+		<small>DAN KRISS CAMERINO &copy; 2019</small>
+	</footer>
 
 </body>
 </html>
